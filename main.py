@@ -10,9 +10,9 @@ def get_activity(username):
         return 
     
     if response.status_code == 200:   
-        with open("/home/cristian/Documents/programe-python/giT_hub_api/info.json", mode="w") as file:
+        with open("info.json", mode="w") as file:
             json.dump(response.json(), file, indent=4)
-        with open("/home/cristian/Documents/programe-python/giT_hub_api/info.json", mode="r") as file:
+        with open("info.json", mode="r") as file:
             data = json.load(file)
 
         current = {}
