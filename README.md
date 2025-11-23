@@ -9,3 +9,6 @@
 
 Now you can run it from anywhere,
   example: github-activity kamranahmedse
+
+
+project idea from https://roadmap.sh/projects/github-user-activity
